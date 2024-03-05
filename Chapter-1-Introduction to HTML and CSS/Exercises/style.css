@@ -1,0 +1,114 @@
+body {
+    background-color: #000; /* KATSUSHADE is not part of this */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('katsushade.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode:screen;
+    opacity: 1;
+}
+
+.container { /* part of the border box, that was used in the header*/
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+}
+
+.header-box {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Color Opacity for the background header */
+}
+
+.header-image { /* to resize the katsu image*/
+    width: 100%;
+    border-radius: 5px;
+}
+
+.header-description { /* The text description below the image inside the border */
+    color: #ccc;
+    text-align: center;
+    font-size: 14px;
+}
+
+h1, /* Header Titles for Katsu Curry */
+h2 {
+    color: #fff;
+    text-align: center;
+}
+
+h3 { /* Japanese Text, but Im still having troubles on how to make it big not just xx-large*/
+    color: darkorange;
+    text-align: center;
+    font-size: xx-large;
+    font: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    /* This makes the texts aligned to the left */
+    position: relative;
+}
+
+li:before {
+    content: "\2022";
+    /* The bulletpoint to make things easier */
+    color: goldenrod;
+    /* Golden brown color */
+    position: absolute;
+    left: 0;
+}
+
+.button {
+    display: inline-block; /* interactive button for the full video guide on how to cook katsu curry*/
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 0 10px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+.arrow {
+    font-size: 24px; /* also made a button for this arrow, but it's like previous or next buttons but for recipes*/
+    cursor: pointer;
+}
+.Ingredients-rect {
+    border: 2px solid #ccc; /* bordered rectangle for the ingredients texts*/
+    border-radius: 5px; 
+    background-color: rgb(152, 117, 46);
+    padding: 10px; 
+    margin-bottom: 20px; 
+}
+.Ingredients-rect2 {
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    background-color: rgb(152, 117, 46); 
+    padding: 10px;
+    margin-bottom: 20px
+}
+.KatsuShade {
+    .background {
+        background-image: url('katsushade.jpg');
+        background-size: cover;
+        background-attachment: fixed; /*WIP*/
+        background-blend-mode: screen; /* I had troubles with this one, At first I made the background function as <body> so it interupted some of my codes because of that now I made it <KatsuShade> */
+        opacity: 1;
+    }
+}
