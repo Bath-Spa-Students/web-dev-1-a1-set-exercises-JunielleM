@@ -1,0 +1,58 @@
+div {
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 25px;
+    border: 6px solid rgb(9, 69, 91); /* for the border where the pictures are placed*/
+    line-height: 100px;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    background-size: cover; 
+    background-position: center; 
+    filter:drop-shadow(100)
+}
+
+body {
+    margin: 100px auto;
+    width: max-content; /* for the whole body */
+    background-color: #dad5cd;
+}
+
+.castle {
+    background-image: url('turkey1.jpg'); /* image 1 the castle link jpg*/
+    filter: drop-shadow(10px 10px 12px rgb(9, 226, 183) )
+}
+
+.mosque {
+    background-image: url('turkey3.jpg'); /* image 3 the castle link jpg*/
+    filter: drop-shadow(10px 10px 12px rgb(6, 164, 255))
+}
+
+.mosque2 {
+    background-image: url('turkey4.jpg'); /* image 4 the castle link jpg*/
+    filter: drop-shadow(10px 10px 12px rgb(10, 245, 202));
+}
+
+div {
+    margin: 10px;
+    padding: 12px;
+    background-color: #8b4513; 
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-style: italic;
+    font-size: xx-large; /* this is for the header title so it can change the font and size also adding a filter*/
+    font-weight: bold;
+    filter: drop-shadow(10px 10px 14px rgb(18, 245, 18));
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    letter-spacing: 2px; /* letter spacing for the paragraph*/
+    filter: drop-shadow(2px 2px 4px rgb(16, 207, 150));
+}
