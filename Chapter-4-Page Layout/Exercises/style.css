@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column; /* whole body*/
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #296102;
+    color: #FFFFFF;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    justify-content: center; /* Center */
+    align-items: center; /* to make it center */
+}
+
+header h1 {
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+nav {
+    background-color: #519307c5;
+    display: flex;
+    justify-content: center; /* center */
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #FFFFFF;
+    color: #253a02;
+}
+
+main {
+    flex: 1;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #17072b;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer {
+    background-color: #57170e;
+    color: #FFFFFF;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.top-left-img {
+    position: absolute;
+    top: 10px; 
+    left: 10px; 
+}
+
+.top-left-img img {
+    width: 50px; 
+    height: auto; 
+}
+
+.left-box,
+.right-box {
+    flex: 1; /* ive added borders on the left and right to make it similar to the one were doing */
+    padding: 20px;
+    border: 2px solid #04d268ed;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; /* to make space between the images */
+    align-items: center;
+    border: 2px solid #04d268; /* border color for the images inside the right border */
+    border-radius: 10px;
+    padding: 10px; /* padding space */
+    background-color: #253a02;
+}
+
+.image-container img {
+    max-width: 45%; 
+    height: auto; 
+}
+
+.left-image-container {
+    margin-top: 20px; 
+    border: 2px solid #04d268; /*for border color */
+    border-radius: 10px;
+    overflow: hidden; /* to make sure that the image i put in doesn't go outside the border */
+    background: #253a02;
+}
+
+.left-image-container img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
+
